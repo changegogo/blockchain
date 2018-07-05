@@ -1,0 +1,26 @@
+{
+  "name": "egg-example",
+  "version": "1.0.0",
+  "description": "egg 项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "egg-bin test",
+    "cov": "egg-bin cov",
+    "dev": "egg-bin dev --port 7002",
+    "debug": "egg-bin debug --port 7002"
+  },
+  "keywords": [
+    "egg"
+  ],
+  "author": "dai",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.9.1",
+    "egg-view-nunjucks": "^2.2.0",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.7.1",
+    "egg-mock": "^3.17.2"
+  }
+}
